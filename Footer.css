@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #00ff00;
+  font-family: monospace;
+}
+
+
+body::after {
+    content: '';
+    display: block;
+    height: 100px; /* Altura del margen inferior */
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  animation: matrix 5s linear infinite;
+}
+
+@keyframes matrix {
+  0% { text-shadow: 0 0 5px #00ff00; }
+  50% { text-shadow: 0 0 10px #ff0000; }
+  100% { text-shadow: 0 0 5px #00ff00; }
+}
