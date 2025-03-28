@@ -1,0 +1,5 @@
+27/03/25
+se cargan las tres vistas principales del informe
+01 - Generalidades CANVA
+02 - Generalidades SQL y NoSQL
+03 - Metodologia Canva para el desarrollo de Cuentas por Pagar WEB
